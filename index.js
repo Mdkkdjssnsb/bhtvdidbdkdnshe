@@ -4,7 +4,7 @@ const yts = require('yt-search');
 
 const app = express();
 const PORT = 3000;
-const YOUTUBE_API_KEY = 'AIzaSyBn7qBpnq1dy1RbPJ8t_BsIHz6ESoR00i4';  // Replace with your YouTube Data API key
+const YOUTUBE_API_KEY = 'AIzaSyDYH3-lPD1QncFSQK_NpT-2fOHNKAyRz64';  // Replace with your YouTube Data API key
 
 app.get('/api/videoinfo/v3', async (req, res) => {
   const query = req.query.q;
